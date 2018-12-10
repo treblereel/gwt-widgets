@@ -22,6 +22,7 @@ import org.gwtproject.resources.client.ClientBundle;
 import org.gwtproject.resources.client.CommonResources;
 import org.gwtproject.resources.client.CssResource;
 import org.gwtproject.resources.client.CssResource.ImportedWithPrefix;
+import org.gwtproject.resources.client.Resource;
 import org.gwtproject.uibinder.client.UiBinder;
 import org.gwtproject.uibinder.client.UiField;
 import org.gwtproject.uibinder.client.UiTemplate;
@@ -38,6 +39,7 @@ public class NativeHorizontalScrollbar extends AbstractNativeScrollbar implement
   /**
    * A ClientBundle of resources used by this widget.
    */
+  @Resource
   public interface Resources extends ClientBundle {
     /**
      * The styles used in this widget.
