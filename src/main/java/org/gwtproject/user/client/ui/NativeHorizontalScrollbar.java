@@ -15,14 +15,10 @@
  */
 package org.gwtproject.user.client.ui;
 
-import com.google.gwt.core.client.GWT;
 import org.gwtproject.dom.client.Element;
 import org.gwtproject.dom.style.shared.Unit;
-import org.gwtproject.resources.client.ClientBundle;
-import org.gwtproject.resources.client.CommonResources;
-import org.gwtproject.resources.client.CssResource;
+import org.gwtproject.resources.client.*;
 import org.gwtproject.resources.client.CssResource.ImportedWithPrefix;
-import org.gwtproject.resources.client.Resource;
 import org.gwtproject.uibinder.client.UiBinder;
 import org.gwtproject.uibinder.client.UiField;
 import org.gwtproject.uibinder.client.UiTemplate;
@@ -52,6 +48,7 @@ public class NativeHorizontalScrollbar extends AbstractNativeScrollbar implement
    * A variation of {@link Resources} that renders the scrollbar
    * semi-transparent until it is hovered.
    */
+  @Resource
   public interface ResourcesTransparant extends Resources {
     /**
      * The styles used in this widget.
@@ -96,7 +93,7 @@ public class NativeHorizontalScrollbar extends AbstractNativeScrollbar implement
    */
   private static Resources getDefaultResources() {
     if (DEFAULT_RESOURCES == null) {
-      DEFAULT_RESOURCES = GWT.create(Resources.class);
+      DEFAULT_RESOURCES = ClientBundleFactory.get(Resources.class);
     }
     return DEFAULT_RESOURCES;
   }
