@@ -21,12 +21,9 @@
     <orderEntry type="library" name="Maven: org.gwtproject:editors:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.event:gwt-event:sources:HEAD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.animation:gwt-animation:1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.google.elemental2:elemental2-dom:1.0.0-RC1" level="project" />
-    <orderEntry type="library" name="Maven: com.google.elemental2:elemental2-promise:1.0.0-RC1" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.timer:timer:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.layout:gwt-layout:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.aria:gwt-aria:1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.gwtproject.core:gwt-core:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.user.window:gwt-window:HEAD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.google.elemental2:elemental2-core:1.0.0-RC1" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.user.history:gwt-history:HEAD-SNAPSHOT" level="project" />
@@ -35,7 +32,11 @@
     <orderEntry type="library" name="Maven: org.gwtproject.safehtml:gwt-safehtml:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.safecss:gwt-safecss:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.regexp:gwt-regexp:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.vertispan.elemental2:elemental2-core:1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.dom:gwt-dom-style-definitions:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.gwtproject.i18n:gwt-datetimeformat:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.gwtproject.i18n:gwt-cldr:sources:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.gwtproject.i18n:gwt-cldr:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.resources:gwt-resources-api:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.callback:gwt-callback:HEAD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.uibinder:gwt-uibinder-processor:1.0.0-SNAPSHOT" level="project" />
@@ -46,6 +47,7 @@
     <orderEntry type="library" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.gwtproject.resources:gwt-resources-processor:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.gwtproject.resources:gwt-resources-core:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-text:1.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.google.closure-stylesheets:closure-stylesheets:1.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: args4j:args4j:2.0.26" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.easymock:easymock:3.0" level="project" />
@@ -56,6 +58,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.google.javascript:closure-compiler-externs:v20160713" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.google.protobuf:protobuf-java:2.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:1.10.19" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-lang3:3.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.google.auto:auto-common:0.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-codec:commons-codec:1.11" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.json:json:20180813" level="project" />
@@ -63,6 +66,9 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.gwtproject.safehtml:gwt-safehtml-template-processor:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.google.jsilver:jsilver:1.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.squareup:javapoet:1.11.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.gwtproject.core:gwt-core:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.google.elemental2:elemental2-dom:1.0.0-RC1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.elemental2:elemental2-promise:1.0.0-RC1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.google.gwt:gwt-user:2.8.2" level="project" />
@@ -89,7 +95,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: net.sourceforge.htmlunit:htmlunit:2.19" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: xalan:xalan:2.7.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: xalan:serializer:2.7.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpclient:4.5.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpcore:4.4.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.httpcomponents:httpmime:4.5.1" level="project" />

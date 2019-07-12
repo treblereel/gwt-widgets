@@ -40,6 +40,9 @@
     <orderEntry type="library" name="Maven: org.gwtproject.safecss:gwt-safecss:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.regexp:gwt-regexp:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.dom:gwt-dom-style-definitions:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.gwtproject.i18n:gwt-datetimeformat:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.gwtproject.i18n:gwt-cldr:sources:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.gwtproject.i18n:gwt-cldr:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.resources:gwt-resources-api:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject.callback:gwt-callback:HEAD-SNAPSHOT" level="project" />
   </component>
